@@ -1,4 +1,6 @@
+import Container from 'react-bootstrap/Container';
 import styles from "./App.module.css";
+
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 
@@ -8,7 +10,9 @@ function App() {
       <Header></Header>
       <div className={`d-flex flex-column flex-sm-row ${styles.Bod}`}>
         <NavBar></NavBar>
-        <p class="text-white">Main content</p>
+        <Container>
+          <p>Hello</p>
+        </Container>
       </div>
     </div>
   );
