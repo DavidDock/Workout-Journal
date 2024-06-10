@@ -1,0 +1,13 @@
+.Side {
+    background-color: white;
+    border-right: 1rem solid black;
+    border-bottom: 1rem solid black;
+    border-left: 1rem solid black;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .HvrSweepToBottom:before {
+    background: black;
+    height: 100%;
+}
