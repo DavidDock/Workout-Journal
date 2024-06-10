@@ -13,16 +13,30 @@ function App() {
       <div className={`d-flex flex-column flex-sm-row ${styles.Bod}`}>
         <NavBar></NavBar>
         <Container>
-        <Switch>
-          <Route
-            exact
-            path="/"
-            render={() => (
-              <p>About</p>
-            )}
-          />
-          <Route render={() => <p>Not found</p>} />
-        </Switch>
+          <Switch>
+            <Route
+              exact
+              path="/"
+              render={() => (
+                <p>About</p>
+              )}
+            />
+            <Route
+              exact
+              path="/journal"
+              render={() => (
+                <p>Journal</p>
+              )}
+            />
+            <Route
+              exact
+              path="/references"
+              render={() => (
+                <p>References</p>
+              )}
+            />
+            <Route render={() => <p>Not found</p>} />
+          </Switch>
         </Container>
       </div>
     </div>

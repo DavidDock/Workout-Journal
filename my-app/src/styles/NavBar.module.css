@@ -7,7 +7,16 @@
     flex-direction: row;
   }
 
-  .HvrSweepToBottom:before {
+.HvrSweepToBottom:before {
     background: black;
     height: 100%;
+}
+
+.Active {
+  color: red;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
