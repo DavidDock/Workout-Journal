@@ -8,7 +8,7 @@ function App() {
       <Header></Header>
       <div className={`d-flex flex-column flex-sm-row ${styles.Bod}`}>
         <NavBar></NavBar>
-        <p>Main content</p>
+        <p class="text-white">Main content</p>
       </div>
     </div>
   );
