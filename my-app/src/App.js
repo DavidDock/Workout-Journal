@@ -5,6 +5,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
+import About from "./pages/about/About.js";
 
 function App() {
   return (
@@ -14,13 +15,7 @@ function App() {
         <NavBar></NavBar>
         <Container>
           <Switch>
-            <Route
-              exact
-              path="/"
-              render={() => (
-                <p>About</p>
-              )}
-            />
+            <Route exact path="/" render={() => <About />} />
             <Route
               exact
               path="/journal"

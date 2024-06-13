@@ -1,0 +1,43 @@
+.MainContainer {
+    animation: 2s ease-out 0s 1 slideInFromBottom;
+
+    background: transparent;
+    padding: 30px;
+    position: relative;
+    margin-top: 7rem;
+    
+}
+
+.Heading {
+    margin-top: 7rem;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.HeroImage {
+    position: absolute;
+    top: -3rem;
+    left: -2.5rem;
+    background: white;
+    border-radius: 50%;;
+}
+
+@media (min-width: 768px) {
+
+    .Para {
+        margin-top: 4rem;
+    }
+
+    .MainContainer {
+        width: 50%;
+    }
+
+}
