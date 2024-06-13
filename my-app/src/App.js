@@ -30,9 +30,9 @@ function App() {
             />
             <Route
               exact
-              path="/references"
+              path="/links"
               render={() => (
-                <p>References</p>
+                <p>Links</p>
               )}
             />
             <Route render={() => <p>Not found</p>} />

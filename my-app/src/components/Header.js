@@ -12,7 +12,7 @@ import stepup from "../assets/stepup.svg";
 const Header = () => {
   return (
     <div className={styles.AppHeader}>
-      <div className={` d-flex flex-row widhth-100 ${styles.LogoContainer}`}>
+      <div className={` d-flex flex-row w-100 ${styles.LogoContainer}`}>
       <img
                   src={bearcrawl}
                   alt="Bear Crawl Exercise"
