@@ -2,3 +2,22 @@
     background-color: white;
     border: 1rem solid black;
   }
+
+.LogoContainer {
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1.5s ease-in 0s 1 slideInFromLeft;
+
+  background: transparent;
+  padding: 30px;
+  justify-content: space-around;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
