@@ -12,3 +12,7 @@
   min-width: 100wv;
   text-align: center;
 }
+
+h1, h2 {
+  font-family: "Notable", sans-serif;
+}
