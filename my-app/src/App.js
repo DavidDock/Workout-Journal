@@ -30,7 +30,7 @@ function App() {
                 <p>Links</p>
               )}
             />
-            <Route render={() => <p>Not found</p>} />
+            <Route render={() => <About />} />
           </Switch>
         </Container>
       </div>
