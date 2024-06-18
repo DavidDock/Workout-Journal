@@ -16,6 +16,7 @@ function App() {
         <Container>
           <Switch>
             <Route exact path="/Workout-Journal" render={() => <About />} />
+            <Route exact path="/" render={() => <About />} />
             <Route
               exact
               path="/journal"
@@ -30,7 +31,7 @@ function App() {
                 <p>Links</p>
               )}
             />
-            <Route render={() => <About />} />
+            <Route render={() => <p>Not Found</p>} />
           </Switch>
         </Container>
       </div>
