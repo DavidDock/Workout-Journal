@@ -19,16 +19,16 @@ function App() {
           <Switch>
             <Route 
               exact 
-              path="/about" 
+              path="/Workout-Journal/about" 
               render={() => <About />} />
-            <Route exact path="/" render={() => <About />} />
+            <Route exact path="/Workout-Journal" render={() => <About />} />
             <Route
               exact
-              path="/journal"
+              path="/Workout-Journal/journal"
               render={() => <Journal />} />
             <Route
               exact
-              path="/links"
+              path="/Workout-Journal/links"
               render={() => <Links />} />
             <Route render={() => <p>Not Found</p>} />
           </Switch>
