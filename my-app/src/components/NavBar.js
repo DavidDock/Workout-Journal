@@ -16,7 +16,7 @@ const NavBar = () => {
           height="50"
           className="mx-auto p-2">
         </img>
-        <NavLink exact className={`hvr-sweep-to-bottom m-0 p-2 ${styles.HvrSweepToBottom}`} to="/Workout-Journal/about">About</NavLink>
+        <NavLink exact className={`hvr-sweep-to-bottom m-0 p-2 ${styles.HvrSweepToBottom}`} to="/Workout-Journal">About</NavLink>
       </span>
       <span className="d-flex flex-column flex-sm-row align-items-center">
       <img

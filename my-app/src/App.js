@@ -17,10 +17,6 @@ function App() {
         <NavBar></NavBar>
         <Container>
           <Switch>
-            <Route 
-              exact 
-              path="/Workout-Journal/about" 
-              render={() => <About />} />
             <Route exact path="/Workout-Journal" render={() => <About />} />
             <Route
               exact
