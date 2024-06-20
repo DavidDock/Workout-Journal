@@ -18,7 +18,7 @@ const Links = () => {
                 <tbody>
                     <tr>
                         <td>
-                            <a href='https://github.com/DavidDock' target="_blank" rel="noopener"
+                            <a href='https://github.com/DavidDock' target="_blank" rel="noreferrer"
                                 aria-label="Visit website creators github profile (opens in a new tab)" className='text-start text-light'>
                                 <img
                                     src={git}
@@ -34,7 +34,7 @@ const Links = () => {
 
                     <tr>
                         <td>
-                            <a href='https://thenounproject.com/' target="_blank" rel="noopener"
+                            <a href='https://thenounproject.com/' target="_blank" rel="noreferrer"
                                 aria-label="Visit the noun project website (opens in a new tab)" className='text-start text-light mx-auto'>
                                 <img
                                     src={noun}

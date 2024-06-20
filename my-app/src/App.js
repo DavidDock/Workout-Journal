@@ -19,7 +19,7 @@ function App() {
           <Switch>
             <Route 
               exact 
-              path="/Workout-Journal" 
+              path="/about" 
               render={() => <About />} />
             <Route exact path="/" render={() => <About />} />
             <Route

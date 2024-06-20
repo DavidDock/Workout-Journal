@@ -1,5 +1,6 @@
-table, th, td {
-    border: 2px solid white;
+.LinksTable th,
+.LinksTable td {
+    border: 4px solid white;
     padding: 0.5rem;
 }
 
