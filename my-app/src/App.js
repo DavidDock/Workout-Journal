@@ -17,14 +17,14 @@ function App() {
         <NavBar></NavBar>
         <Container>
           <Switch>
-            <Route exact path="/Workout-Journal" render={() => <About />} />
+            <Route exact path="/" render={() => <About />} />
             <Route
               exact
-              path="/Workout-Journal/journal"
+              path="/journal"
               render={() => <Journal />} />
             <Route
               exact
-              path="/Workout-Journal/links"
+              path="/links"
               render={() => <Links />} />
             <Route render={() => <p>Not Found</p>} />
           </Switch>

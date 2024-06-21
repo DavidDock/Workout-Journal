@@ -16,7 +16,7 @@ const NavBar = () => {
           height="50"
           className="mx-auto p-2">
         </img>
-        <NavLink exact className={`hvr-sweep-to-bottom m-0 p-2 ${styles.HvrSweepToBottom}`} to="/Workout-Journal">About</NavLink>
+        <NavLink exact className={`hvr-sweep-to-bottom m-0 p-2 ${styles.HvrSweepToBottom}`} to="/">About</NavLink>
       </span>
       <span className="d-flex flex-column flex-sm-row align-items-center">
       <img
@@ -25,7 +25,7 @@ const NavBar = () => {
           height="50"
           className="mx-auto p-2">
         </img>
-        <NavLink exact className={`hvr-sweep-to-bottom m-0 p-2 ${styles.HvrSweepToBottom}`} to="/Workout-Journal/journal">Journal</NavLink>
+        <NavLink exact className={`hvr-sweep-to-bottom m-0 p-2 ${styles.HvrSweepToBottom}`} to="/journal">Journal</NavLink>
       </span>
       <span className="d-flex flex-column flex-sm-row align-items-center">
       <img
@@ -34,7 +34,7 @@ const NavBar = () => {
           height="50"
           className="mx-auto p-2">
         </img>
-        <NavLink exact className={`hvr-sweep-to-bottom m-0 p-2 ${styles.HvrSweepToBottom}`} to="/Workout-Journal/links">Links</NavLink>
+        <NavLink exact className={`hvr-sweep-to-bottom m-0 p-2 ${styles.HvrSweepToBottom}`} to="/links">Links</NavLink>
       </span>
     </div>
   )
