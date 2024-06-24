@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import About from "./pages/about/About.js";
 import Journal from './pages/journal/Journal.js';
 import Links from './pages/links/Links.js';
+import NotFound from './pages/error/NotFound.js';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
               exact
               path="/links"
               render={() => <Links />} />
-            <Route render={() => <p>Not Found</p>} />
+            <Route render={() => <NotFound />} />
           </Switch>
         </Container>
       </div>
