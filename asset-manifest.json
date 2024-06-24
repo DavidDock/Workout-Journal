@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Workout-Journal/static/css/main.ef91dbd5.css",
-    "main.js": "/Workout-Journal/static/js/main.675e1688.js",
+    "main.css": "/Workout-Journal/static/css/main.2b954fd7.css",
+    "main.js": "/Workout-Journal/static/js/main.7f4372f6.js",
     "static/js/453.ed3810f9.chunk.js": "/Workout-Journal/static/js/453.ed3810f9.chunk.js",
     "static/media/homeexercise.svg": "/Workout-Journal/static/media/homeexercise.f5047ca6a87fd98d447b35fafe2d4f39.svg",
     "static/media/bearcrawl.svg": "/Workout-Journal/static/media/bearcrawl.572616cd25c2215712f6cc0761e3bc29.svg",
@@ -9,8 +9,10 @@
     "static/media/running.svg": "/Workout-Journal/static/media/running.7a81eff79ff9a12294630435c567614c.svg",
     "static/media/journal.svg": "/Workout-Journal/static/media/journal.9adee055bf2ecbb7259daa274502ae8a.svg",
     "static/media/links.svg": "/Workout-Journal/static/media/links.6a46920de4472544092e8b86b9f19753.svg",
+    "static/media/error.svg": "/Workout-Journal/static/media/error.b8e6deba23614dfe2b77e1b12fa24ec8.svg",
     "static/media/pullups.svg": "/Workout-Journal/static/media/pullups.f6831d620579a941b0578bf3f5ac670f.svg",
     "static/media/mandumbell.svg": "/Workout-Journal/static/media/mandumbell.e6437716a116ceae3ef877982d40da72.svg",
+    "static/media/diary.svg": "/Workout-Journal/static/media/diary.0fc22e72f5953ce3ddc9bc2eb8ef83a6.svg",
     "static/media/dumbell.svg": "/Workout-Journal/static/media/dumbell.9103d40646030555bac50886732bd7d3.svg",
     "static/media/dumbell2.svg": "/Workout-Journal/static/media/dumbell2.8d195d54a89152c90e9e8ee702288c7b.svg",
     "static/media/home.svg": "/Workout-Journal/static/media/home.e5c9d8750e9eff5f1fb3cb0bb7c53a59.svg",
@@ -19,12 +21,12 @@
     "static/media/github.svg": "/Workout-Journal/static/media/github.2944297b5d2e24b18e2c735001c8ab7f.svg",
     "static/media/stepup.svg": "/Workout-Journal/static/media/stepup.0101a7644372d9d9c7401cdbd043e868.svg",
     "index.html": "/Workout-Journal/index.html",
-    "main.ef91dbd5.css.map": "/Workout-Journal/static/css/main.ef91dbd5.css.map",
-    "main.675e1688.js.map": "/Workout-Journal/static/js/main.675e1688.js.map",
+    "main.2b954fd7.css.map": "/Workout-Journal/static/css/main.2b954fd7.css.map",
+    "main.7f4372f6.js.map": "/Workout-Journal/static/js/main.7f4372f6.js.map",
     "453.ed3810f9.chunk.js.map": "/Workout-Journal/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef91dbd5.css",
-    "static/js/main.675e1688.js"
+    "static/css/main.2b954fd7.css",
+    "static/js/main.7f4372f6.js"
   ]
 }
