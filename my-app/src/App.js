@@ -13,9 +13,9 @@ function App() {
   return (
     <div className={styles.App}>
       <Header></Header>
-      <div className={`d-flex flex-column flex-sm-row ${styles.Bod}`}>
+      <div className={`d-flex flex-column ${styles.Bod}`}>
         <NavBar></NavBar>
-        <Container>
+        <Container className={styles.ContentContainer}>
           <Switch>
             <Route exact path="/" render={() => <About />} />
             <Route

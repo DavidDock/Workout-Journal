@@ -1,15 +1,14 @@
 .App {
   text-align: center;
   background-color: black;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   font-family: "Tilt Neon", sans-serif;
+  min-height: 100vh;
 }
 
 .Bod {
-  min-height: 100vh;
   min-width: 100wv;
   text-align: center;
 }
