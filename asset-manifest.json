@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Workout-Journal/static/css/main.57a29bb2.css",
+    "main.css": "/Workout-Journal/static/css/main.b0964988.css",
     "main.js": "/Workout-Journal/static/js/main.79fb1685.js",
     "static/js/453.ed3810f9.chunk.js": "/Workout-Journal/static/js/453.ed3810f9.chunk.js",
     "static/media/greyexercise.svg": "/Workout-Journal/static/media/greyexercise.cd0ae7f52b451e90c487d49bf23f0478.svg",
@@ -19,12 +19,12 @@
     "static/media/github.svg": "/Workout-Journal/static/media/github.2944297b5d2e24b18e2c735001c8ab7f.svg",
     "static/media/stepup.svg": "/Workout-Journal/static/media/stepup.0101a7644372d9d9c7401cdbd043e868.svg",
     "index.html": "/Workout-Journal/index.html",
-    "main.57a29bb2.css.map": "/Workout-Journal/static/css/main.57a29bb2.css.map",
+    "main.b0964988.css.map": "/Workout-Journal/static/css/main.b0964988.css.map",
     "main.79fb1685.js.map": "/Workout-Journal/static/js/main.79fb1685.js.map",
     "453.ed3810f9.chunk.js.map": "/Workout-Journal/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57a29bb2.css",
+    "static/css/main.b0964988.css",
     "static/js/main.79fb1685.js"
   ]
 }
