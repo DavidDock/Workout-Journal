@@ -31,6 +31,26 @@
     border-radius: 50%;;
 }
 
+.CarouselImage {
+    opacity: 0.6;
+    width: 80%;
+}
+
+.CarouselContent {
+    text-align: left;
+    height: 80%;
+    overflow-y: scroll;
+    margin: auto;
+}
+
+.CarouselItem {
+    height: 300px;
+}
+
+.CarouselMain {
+    margin: 2rem auto 4rem;
+}
+
 @media (min-width: 768px) {
 
     .Para {
@@ -41,24 +61,13 @@
         height: 70%;
     }
 
-    .CarouselImage {
-        
-        width: 90%;
+
+    .CarouselMain {
+        width: 85%;
     }
 
-}
+    .CarouselImage {
+        width: 50%;
+    }
 
-.CarouselImage {
-    opacity: 0.6;
-    width: 50%;
-}
-
-.CarouselContent {
-    height: 80%;
-    overflow-y: scroll;
-    margin: auto;
-}
-
-.CarouselItem {
-    height: 300px;
 }

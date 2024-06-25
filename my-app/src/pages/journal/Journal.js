@@ -29,7 +29,7 @@ const Journal = () => {
                 </p>
             </div>
 
-            <Carousel activeIndex={index} onSelect={handleSelect} interval={null} className='w-75 mx-auto mt-2 mb-4'>
+            <Carousel activeIndex={index} onSelect={handleSelect} interval={null} className={styles.CarouselMain}>
                 <Carousel.Item className={styles.CarouselItem}>
                     <img
                         src={grey}
@@ -37,8 +37,19 @@ const Journal = () => {
                         className={styles.CarouselImage}>
                     </img>
                     <Carousel.Caption className={styles.CarouselContent}>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdumNulla vitae elit libero, a pharetra augue mollis interdum</p>
+                        <h3 className='text-center mb-2'>First slide label</h3>
+                        <p className='text-center'>Nulla vitae elit libero, a pharetra</p>
+                        <p className='text-center'>jwefjifjefjijeiof fjfiejrferjferif jfijefiejirfj fjierjfij</p>
+                        <ul>
+                            <li> coddee fjijeiof fjfiejrferjferif jfijefiejirfj</li>
+                            <li> coddee</li>
+                            <li> coddee fjijeiof fjfiejrferjferif jfijefiejirfj</li>
+                            <li> coddee</li>
+                            <li> coddee</li>
+                            <li> coddee fjijeiof fjfiejrferjferif jfijefiejirfj</li>
+                            <li> coddee</li>
+                            <li> coddee</li>
+                        </ul>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className={styles.CarouselItem}>
