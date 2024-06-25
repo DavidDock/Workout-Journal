@@ -38,7 +38,27 @@
     }
 
     .HeadingContainer {
-        width: 50%;
+        height: 70%;
     }
 
+    .CarouselImage {
+        
+        width: 90%;
+    }
+
+}
+
+.CarouselImage {
+    opacity: 0.6;
+    width: 50%;
+}
+
+.CarouselContent {
+    height: 80%;
+    overflow-y: scroll;
+    margin: auto;
+}
+
+.CarouselItem {
+    height: 300px;
 }

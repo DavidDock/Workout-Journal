@@ -16,3 +16,24 @@
 h1, h2 {
   font-family: "Notable", sans-serif;
 }
+
+/* scrollbar */
+*::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+  margin: 0.7rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: white;
+  border-radius: 10px;
+}
