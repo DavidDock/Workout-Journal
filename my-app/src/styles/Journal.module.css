@@ -5,7 +5,7 @@
     padding: 30px;
     position: relative;
     margin-top: 7rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -41,6 +41,7 @@
     height: 80%;
     overflow-y: scroll;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 .CarouselItem {
@@ -48,7 +49,7 @@
 }
 
 .CarouselMain {
-    margin: 2rem auto 4rem;
+    margin: 0 auto 2rem;
 }
 
 @media (min-width: 768px) {
@@ -59,6 +60,7 @@
 
     .HeadingContainer {
         height: 70%;
+        margin-bottom: 4rem;
     }
 
 
@@ -68,6 +70,10 @@
 
     .CarouselImage {
         width: 50%;
+    }
+
+    .CarouselMain {
+        margin: 2rem auto 4rem;
     }
 
 }
