@@ -1,18 +1,11 @@
 import {React, useState} from 'react'
 
 import styles from "../../styles/Journal.module.css";
-import Carousel from 'react-bootstrap/Carousel';
 
-import grey from "../../assets/greyexercise.svg";
+import Workout1 from '../workouts/Workout1';
 
 
 const Journal = () => {
-
-    const [index, setIndex] = useState(0);
-
-    const handleSelect = (selectedIndex) => {
-        setIndex(selectedIndex);
-    };
 
     return (
         <div>
@@ -24,59 +17,12 @@ const Journal = () => {
 
                 <h2 className={`d-none d-md-block ml-auto my-4`}>Journal</h2>
                 <h2 className={`d-md-none ${styles.Heading}`}>Journal</h2>
-                <p className={`${styles.Para}`}>This is my workout journal showing my daily workouts. I will be adding to this regually to keep myself motivated and hopefully provide inspiration.<br></br>
+                <p className={`${styles.Para}`}>My daily workouts, Update reguarly and hopeully will provide inspiration. <br></br>
                 Feel free to follow along, they all should be fairly short in length and require minimal equipment.
                 </p>
             </div>
 
-            <Carousel activeIndex={index} onSelect={handleSelect} interval={null} className={styles.CarouselMain}>
-                <Carousel.Item className={styles.CarouselItem}>
-                    <img
-                        src={grey}
-                        alt="background"
-                        className={styles.CarouselImage}>
-                    </img>
-                    <Carousel.Caption className={styles.CarouselContent}>
-                        <h3 className='text-center mb-2'>First slide label</h3>
-                        <p className='text-center'>Nulla vitae elit libero, a pharetra</p>
-                        <p className='text-center'>jwefjifjefjijeiof fjfiejrferjferif jfijefiejirfj fjierjfij</p>
-                        <ul>
-                            <li> coddee fjijeiof fjfiejrferjferif jfijefiejirfj</li>
-                            <li> coddee</li>
-                            <li> coddee fjijeiof fjfiejrferjferif jfijefiejirfj</li>
-                            <li> coddee</li>
-                            <li> coddee</li>
-                            <li> coddee fjijeiof fjfiejrferjferif jfijefiejirfj</li>
-                            <li> coddee</li>
-                            <li> coddee</li>
-                        </ul>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className={styles.CarouselItem}>
-                    <img
-                        src={grey}
-                        alt="background"
-                        className={styles.CarouselImage}>
-                    </img>
-                    <Carousel.Caption className={styles.CarouselContent}>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className={styles.CarouselItem}> 
-                    <img
-                        src={grey}
-                        alt="background"
-                        className={styles.CarouselImage}>
-                    </img>
-                    <Carousel.Caption className={styles.CarouselContent}>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+            <Workout1 />
 
         </div>
     )

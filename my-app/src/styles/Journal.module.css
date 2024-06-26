@@ -10,7 +10,7 @@
 }
 
 .Heading {
-    margin-top: 7.5rem;
+    margin-top: 5rem;
 }
 
 @keyframes slideInFromRight {
@@ -31,27 +31,6 @@
     border-radius: 50%;;
 }
 
-.CarouselImage {
-    opacity: 0.6;
-    width: 80%;
-}
-
-.CarouselContent {
-    text-align: left;
-    height: 80%;
-    overflow-y: scroll;
-    margin: auto;
-    margin-bottom: 2rem;
-}
-
-.CarouselItem {
-    height: 300px;
-}
-
-.CarouselMain {
-    margin: 0 auto 2rem;
-}
-
 @media (min-width: 768px) {
 
     .Para {
@@ -61,19 +40,6 @@
     .HeadingContainer {
         height: 70%;
         margin-bottom: 4rem;
-    }
-
-
-    .CarouselMain {
-        width: 85%;
-    }
-
-    .CarouselImage {
-        width: 50%;
-    }
-
-    .CarouselMain {
-        margin: 2rem auto 4rem;
     }
 
 }

@@ -1,0 +1,38 @@
+.CarouselImage {
+    opacity: 0.6;
+    width: 80%;
+}
+
+.CarouselContent {
+    text-align: left;
+    height: 80%;
+    overflow-y: scroll;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.CarouselItem {
+    height: 300px;
+}
+
+.CarouselMain {
+    margin: 0 auto 2rem;
+    border: 0.5rem solid white;
+}
+
+@media (min-width: 768px) {
+
+
+    .CarouselMain {
+        width: 85%;
+    }
+
+    .CarouselImage {
+        width: 50%;
+    }
+
+    .CarouselMain {
+        margin: 2rem auto 4rem;
+    }
+
+}
