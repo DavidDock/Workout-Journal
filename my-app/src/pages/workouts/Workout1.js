@@ -55,7 +55,7 @@ const Workout1 = () => {
                     alt="background"
                     className={styles.CarouselImage}>
                 </img>
-                <Carousel.Caption className={styles.CarouselContent}>
+                <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
                     <ul>
                         <li>10 reps of pull ups</li>
