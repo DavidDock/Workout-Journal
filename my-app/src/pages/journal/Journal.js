@@ -3,6 +3,9 @@ import {React, useState} from 'react'
 import styles from "../../styles/Journal.module.css";
 
 import Workout1 from '../workouts/Workout1';
+import Workout4 from '../workouts/Workout4';
+import Workout3 from '../workouts/Workout3';
+import Workout2 from '../workouts/Workout2';
 
 
 const Journal = () => {
@@ -21,7 +24,10 @@ const Journal = () => {
                 Feel free to follow along, they all should be fairly short in length and require minimal equipment.
                 </p>
             </div>
-
+            
+            <Workout4 />
+            <Workout3 />
+            <Workout2 />
             <Workout1 />
 
         </div>

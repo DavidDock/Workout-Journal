@@ -43,7 +43,7 @@ const Workout1 = () => {
                         </li>
                         <li>
                             <a href='https://en.wikipedia.org/wiki/Bent-over_row' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for one arm row (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbell row
+                                aria-label="Wiki for one arm row (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbbell row
                             </a>
                         </li>
                         <li>
@@ -58,19 +58,19 @@ const Workout1 = () => {
                         </li>
                         <li>
                             <a href='https://en.wikipedia.org/wiki/Bicep_curl' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for Bicep curl (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbell bicep curls
+                                aria-label="Wiki for Bicep curl (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbbell bicep curls
                             </a>
                         </li>
                         <li>
                             <a href='https://blackbeltwiki.com/hammer-curls' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for Hammer curl (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbell hammer curls
+                                aria-label="Wiki for Hammer curl (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbbell hammer curls
                             </a>
                         </li>
                     </ul>
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
                         <li>Pull-Up bar</li>
-                        <li>Dumbell (7kg)</li>
+                        <li>Dumbbell (7kg)</li>
                         <li>Table (For Australian Pull-ups)</li>
                     </ul>
                 </Carousel.Caption>
@@ -86,11 +86,11 @@ const Workout1 = () => {
                     <h4>2 rounds of: </h4>
                     <ul>
                         <li>40 seconds of Pull-ups, rest 20 seconds</li>
-                        <li>40 seconds of One arm dumbell rows, rest 20 seconds</li>
+                        <li>40 seconds of One arm dumbbell rows, rest 20 seconds</li>
                         <li>40 seconds of Australian pull-ups, rest 20 seconds</li>
                         <li>40 seconds of Chin-ups, rest 20 seconds</li>
-                        <li>40 seconds of One arm dumbell curls, rest 20 seconds</li>
-                        <li>40 seconds of One arm hammer curls then rest 20 seconds</li>
+                        <li>40 seconds of One arm dumbbell curls, rest 20 seconds</li>
+                        <li>40 seconds of One arm hammer curls, rest 20 seconds</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
