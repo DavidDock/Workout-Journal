@@ -36,16 +36,42 @@ const Workout1 = () => {
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3 className='mb-4'>Exercises:</h3>
                     <ul>
-                        <li>Pull-Ups</li>
-                        <li>One arm rows</li>
-                        <li>Austrailian Pull-ups</li>
-                        <li>Chin-Ups</li>
-                        <li>One arm bicep curls</li>
+                        <li>
+                            <a href='https://en.wikipedia.org/wiki/Pull-up_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for pull-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pull-Ups
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://en.wikipedia.org/wiki/Bent-over_row' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for one arm row (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbell row
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://en.wikipedia.org/wiki/Inverted_row' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for Australian Pull-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Australian Pull-ups
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://en.wiktionary.org/wiki/chin-up' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for Chin-ups (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Chin-ups
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://en.wikipedia.org/wiki/Bicep_curl' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for Bicep curl (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbell bicep curls
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://blackbeltwiki.com/hammer-curls' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for Hammer curl (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbell hammer curls
+                            </a>
+                        </li>
                     </ul>
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
                         <li>Pull-Up bar</li>
-                        <li>Dumbell</li>
+                        <li>Dumbell (7kg)</li>
+                        <li>Table (For Australian Pull-ups)</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -57,14 +83,14 @@ const Workout1 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
+                    <h4>2 rounds of: </h4>
                     <ul>
-                        <li>10 reps of pull ups</li>
-                        <li>10 reps of pull ups</li>
-                        <li>10 reps of pull ups</li>
-                        <li>10 reps of pull ups</li>
-                        <li>10 reps of pull ups</li>
-                        <li>10 reps of pull ups</li>
-                        <li>10 reps of pull ups</li>
+                        <li>40 seconds of Pull-ups, rest 20 seconds</li>
+                        <li>40 seconds of One arm dumbell rows, rest 20 seconds</li>
+                        <li>40 seconds of Australian pull-ups, rest 20 seconds</li>
+                        <li>40 seconds of Chin-ups, rest 20 seconds</li>
+                        <li>40 seconds of One arm dumbell curls, rest 20 seconds</li>
+                        <li>40 seconds of One arm hammer curls then rest 20 seconds</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>

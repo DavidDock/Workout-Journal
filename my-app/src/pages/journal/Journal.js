@@ -17,7 +17,7 @@ const Journal = () => {
 
                 <h2 className={`d-none d-md-block ml-auto my-4`}>Journal</h2>
                 <h2 className={`d-md-none ${styles.Heading}`}>Journal</h2>
-                <p className={`${styles.Para}`}>My daily workouts, Update reguarly and hopeully will provide inspiration. <br></br>
+                <p className={`${styles.Para}`}>My workout journal, updated reguarly and hopeully it'll provide inspiration. <br></br>
                 Feel free to follow along, they all should be fairly short in length and require minimal equipment.
                 </p>
             </div>
