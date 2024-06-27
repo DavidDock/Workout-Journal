@@ -3,6 +3,8 @@
 
 A simple site for me to pair my interests of coding and fitness and to motivate myself by documenting my workouts.
 
+![Website in differnt devices](/my-app/src/assets/overview.PNG)
+
 ## **Color Scheme, Typography and Icons**
 
 - Black and white throughout.
