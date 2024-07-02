@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import React from 'react'
 
 import styles from "../../styles/Journal.module.css";
 
@@ -6,6 +6,8 @@ import Workout1 from '../workouts/Workout1';
 import Workout4 from '../workouts/Workout4';
 import Workout3 from '../workouts/Workout3';
 import Workout2 from '../workouts/Workout2';
+import Workout5 from '../workouts/Workout5';
+import Workout6 from '../workouts/Workout6';
 
 
 const Journal = () => {
@@ -25,6 +27,8 @@ const Journal = () => {
                 </p>
             </div>
             
+            <Workout6 />
+            <Workout5 />
             <Workout4 />
             <Workout3 />
             <Workout2 />
