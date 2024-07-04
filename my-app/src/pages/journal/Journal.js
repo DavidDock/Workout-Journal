@@ -8,6 +8,9 @@ import Workout3 from '../workouts/Workout3';
 import Workout2 from '../workouts/Workout2';
 import Workout5 from '../workouts/Workout5';
 import Workout6 from '../workouts/Workout6';
+import Workout7 from '../workouts/Workout7';
+import Workout8 from '../workouts/Workout8';
+import Workout9 from '../workouts/Workout9';
 
 
 const Journal = () => {
@@ -27,6 +30,9 @@ const Journal = () => {
                 </p>
             </div>
             
+            <Workout9 />
+            <Workout8 />
+            <Workout7 />
             <Workout6 />
             <Workout5 />
             <Workout4 />
