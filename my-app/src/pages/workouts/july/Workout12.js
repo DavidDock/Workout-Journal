@@ -1,11 +1,11 @@
 import {React, useState} from 'react'
 
-import styles from "../../styles/Workouts.module.css";
+import styles from "../../../styles/Workouts.module.css";
 import Carousel from 'react-bootstrap/Carousel';
 
-import grey from "../../assets/greyexercise.svg";
+import grey from "../../../assets/greyexercise.svg";
 
-const Workout2 = () => {
+const Workout12 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout2 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Tues 25.06</h3>
-                    <h3 className="mb-4">Body Parts: Chest and Triceps</h3>
-                    <h4>Summary: 300 reps throughout the day</h4>
+                    <h3 className='mb-4'>Date: Wed 10.07</h3>
+                    <h3 className="mb-4">Body Parts: Back and Biceps</h3>
+                    <h3 className="mb-4">Duration: 15 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -37,20 +37,21 @@ const Workout2 = () => {
                     <h3 className='mb-4'>Exercises:</h3>
                     <ul>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Push-up' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Press-Ups
+                            <a href='https://en.wikipedia.org/wiki/Pull-up_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for pull-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pull-Ups
                             </a>
                         </li>
+                        
                         <li>
-                            <a href='https://www.wikihow.com/Do-a-Diamond-Pushup' target="_blank" rel="noreferrer"
-                                aria-label="Website demonstration for diamond press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Diamond Press-ups
+                            <a href='https://en.wiktionary.org/wiki/chin-up' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for Chin-ups (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Chin-ups
                             </a>
                         </li>
-                        <li>
-                            <a href='https://blackbeltwiki.com/wide-grip-push-ups' target="_blank" rel="noreferrer"
-                                aria-label="Website demonstration for wide press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Wide press-ups
-                            </a>
-                        </li>
+                        
+                    </ul>
+                    <h3 className='mb-4'>Equipment:</h3>
+                    <ul>
+                        <li>Pull-Up bar</li>
                         
                     </ul>
                 </Carousel.Caption>
@@ -63,11 +64,12 @@ const Workout2 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>Throughout the day split up in sets of 20 of each ecercise </p>
+                    <h4>Pull-up and chin-up challenge </h4>
                     <ul>
-                        <li>100 press-ups</li>
-                        <li>100 diamond press-ups</li>
-                        <li>100 wide press-ups</li>
+                        <li>Max pull-ups, 30 seconds break</li>
+                        <li>Repeat until 150 reps of pull ups complete</li>
+                        <li>Max Chin-ups, rest 30 seconds</li>
+                        <li>Repeat until 100 reps of chin ups complete</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -76,4 +78,4 @@ const Workout2 = () => {
     )
 }
 
-export default Workout2
+export default Workout12

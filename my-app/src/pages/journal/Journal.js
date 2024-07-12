@@ -2,19 +2,8 @@ import React from 'react'
 
 import styles from "../../styles/Journal.module.css";
 
-import Workout1 from '../workouts/Workout1';
-import Workout4 from '../workouts/Workout4';
-import Workout3 from '../workouts/Workout3';
-import Workout2 from '../workouts/Workout2';
-import Workout5 from '../workouts/Workout5';
-import Workout6 from '../workouts/Workout6';
-import Workout7 from '../workouts/Workout7';
-import Workout8 from '../workouts/Workout8';
-import Workout9 from '../workouts/Workout9';
-import Workout10 from '../workouts/Workout10';
-import Workout11 from '../workouts/Workout11';
-import Workout12 from '../workouts/Workout12';
-import Workout13 from '../workouts/Workout13';
+import June from '../workouts/june/June';
+import July from '../workouts/july/July';
 
 
 const Journal = () => {
@@ -34,19 +23,8 @@ const Journal = () => {
                 </p>
             </div>
             
-            <Workout13 />
-            <Workout12 />
-            <Workout11 />
-            <Workout10 />
-            <Workout9 />
-            <Workout8 />
-            <Workout7 />
-            <Workout6 />
-            <Workout5 />
-            <Workout4 />
-            <Workout3 />
-            <Workout2 />
-            <Workout1 />
+            <July />
+            <June />
 
         </div>
     )

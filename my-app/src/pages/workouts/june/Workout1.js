@@ -1,9 +1,9 @@
 import {React, useState} from 'react'
 
-import styles from "../../styles/Workouts.module.css";
+import styles from "../../../styles/Workouts.module.css";
 import Carousel from 'react-bootstrap/Carousel';
 
-import grey from "../../assets/greyexercise.svg";
+import grey from "../../../assets/greyexercise.svg";
 
 const Workout1 = () => {
     const [index, setIndex] = useState(0);
