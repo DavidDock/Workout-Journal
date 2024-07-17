@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import styles from "../../styles/Journal.module.css";
 
@@ -7,6 +7,9 @@ import July from '../workouts/july/July';
 
 
 const Journal = () => {
+
+    const [julyworkouts, setJulyworkouts] = useState(false)
+    const [juneworkouts, setJuneworkouts] = useState(false)
 
     return (
         <div>
@@ -21,13 +24,17 @@ const Journal = () => {
                 <p className={`${styles.Para}`}>My workout journal, updated reguarly and hopeully it'll provide inspiration. <br></br>
                 Feel free to follow along, they all should be fairly short in length and require minimal equipment.
                 </p>
-                {/* <div className={`d-flex justify-content-around w-90 mx-auto my-4 ${styles.MonthContainer}`}>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`}>June</button>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`}>July</button>
-                </div> */}
+                <div className={`d-flex justify-content-around w-90 mx-auto my-4 ${styles.MonthContainer}`}>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJuneworkouts(!juneworkouts); setJulyworkouts(false)}}>June</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJulyworkouts(!julyworkouts); setJuneworkouts(false)}}>July</button>
+                </div>
             </div>
-            <July />
-            <June />
+            {julyworkouts && (
+                <July />
+            )}
+            {juneworkouts && (
+                <June />
+            )}
 
         </div>
     )
