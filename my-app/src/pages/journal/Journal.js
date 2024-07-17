@@ -21,8 +21,11 @@ const Journal = () => {
                 <p className={`${styles.Para}`}>My workout journal, updated reguarly and hopeully it'll provide inspiration. <br></br>
                 Feel free to follow along, they all should be fairly short in length and require minimal equipment.
                 </p>
+                {/* <div className={`d-flex justify-content-around w-90 mx-auto my-4 ${styles.MonthContainer}`}>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`}>June</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`}>July</button>
+                </div> */}
             </div>
-            
             <July />
             <June />
 

@@ -1,12 +1,44 @@
 .HeadingContainer {
     animation: 2s ease-out 0s 1 slideInFromRight;
-
     background: transparent;
-    padding: 30px;
+    padding: 30px 30px 5px 30px;
     position: relative;
     margin-top: 7rem;
     margin-bottom: 2rem;
     
+}
+
+.MonthContainer {
+    animation: 2s ease-out 0s 1 slideInFromRight;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.MyButton {
+    
+    Padding: .2rem 0.5rem;
+    margin: 0.25rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.MyButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.MyButton:focus {
+    background-color: white;
+    color: black;
+}
+
+.HvrSweepToBottom:before {
+    background: white;
+    color: black;
+    height: 100%;
 }
 
 .Heading {
@@ -35,6 +67,7 @@
 
     .Para {
         margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 
     .HeadingContainer {
