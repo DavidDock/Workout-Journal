@@ -12,11 +12,15 @@ import Workout14 from './Workout14';
 import Workout15 from './Workout15';
 import Workout16 from './Workout16';
 import Workout17 from './Workout17';
+import Workout18 from './Workout18';
+import Workout19 from './Workout19';
 
 const July = () => {
 
     return (
         <div>
+            <Workout19 />
+            <Workout18 />
             <Workout17 />
             <Workout16 />
             <Workout15 />
