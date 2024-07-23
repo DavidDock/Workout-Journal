@@ -4,12 +4,14 @@ import styles from "../../styles/Journal.module.css";
 
 import June from '../workouts/june/June';
 import July from '../workouts/july/July';
+import August from '../workouts/august/August';
 
 
 const Journal = () => {
 
     const [julyworkouts, setJulyworkouts] = useState(false)
     const [juneworkouts, setJuneworkouts] = useState(false)
+    const [augustworkouts, setAugustworkouts] = useState(false)
 
     return (
         <div>
@@ -25,10 +27,14 @@ const Journal = () => {
                 Feel free to follow along, they all should be fairly short in length and require minimal equipment.
                 </p>
                 <div className={`d-flex justify-content-around w-90 mx-auto my-4 ${styles.MonthContainer}`}>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJuneworkouts(!juneworkouts); setJulyworkouts(false)}}>June</button>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJulyworkouts(!julyworkouts); setJuneworkouts(false)}}>July</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJuneworkouts(!juneworkouts); setJulyworkouts(false); setAugustworkouts(false)}}>June</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJulyworkouts(!julyworkouts); setJuneworkouts(false); setAugustworkouts(false)}}>July</button>
+                    {/*<button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setAugustworkouts(!julyworkouts); setJuneworkouts(false); setJulyworkouts(false)}}>August</button>*/}
                 </div>
             </div>
+            {augustworkouts && (
+                <August />
+            )}
             {julyworkouts && (
                 <July />
             )}
