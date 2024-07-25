@@ -24,7 +24,7 @@ const Workout20 = () => {
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3 className='mb-4'>Date: Tues 23.07</h3>
                     <h3 className="mb-4">Body Parts: Legs</h3>
-                    <h3 className="mb-4">Duration: 20 minutes</h3>
+                    <h3 className="mb-4">Duration: 30 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
