@@ -8,11 +8,21 @@ import Workout30 from './Workout30'
 import Workout31 from './Workout31'
 import Workout32 from './Workout32'
 import Workout33 from './Workout33'
+import Workout34 from './Workout34'
+import Workout35 from './Workout35'
+import Workout36 from './Workout36'
+import Workout37 from './Workout37'
+import Workout38 from './Workout38'
 
 const August = () => {
 
     return (
         <div>
+            <Workout38 />
+            <Workout37 />
+            <Workout36 />
+            <Workout35 />
+            <Workout34 />
             <Workout33 />
             <Workout32 />
             <Workout31 />
