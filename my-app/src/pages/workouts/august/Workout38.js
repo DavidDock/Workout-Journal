@@ -22,7 +22,7 @@ const Workout38 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Thurs 22.08</h3>
+                    <h3 className='mb-4'>Date: Fri 23.08</h3>
                     <h3 className="mb-4">Body Parts: Legs and Cardio</h3>
                     <h4>Summary: 1000 squat challenge</h4>
                 </Carousel.Caption>
