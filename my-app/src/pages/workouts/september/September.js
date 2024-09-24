@@ -14,11 +14,17 @@ import Workout54 from './Workout54'
 import Workout55 from './Workout55'
 import Workout56 from './Workout56'
 import Workout57 from './Workout57'
+import Workout58 from './Workout58'
+import Workout59 from './Workout59'
+import Workout60 from './Workout60'
 
 const September = () => {
 
     return (
         <div>
+            <Workout60 />
+            <Workout59 />
+            <Workout58 />
             <Workout57 />
             <Workout56 />
             <Workout55 />
