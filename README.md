@@ -1,7 +1,7 @@
 # **My workout Journal**
 ## **Introduction**
 
-A simple site for me to pair my interests of coding and fitness and to motivate myself by documenting my workouts.
+A simple website for me to pair my interests of coding and fitness and to motivate myself by documenting my workouts.
 
 ![Website in differnt devices](/my-app/src/assets/overview.PNG)
 
