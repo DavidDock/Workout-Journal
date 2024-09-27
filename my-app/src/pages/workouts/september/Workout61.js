@@ -35,7 +35,7 @@ const Workout61 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3>Chest and Back Challenge</h3>
+                    <h3>Press and Curl Challenge</h3>
                     <ul>
                         <li>
                             150 each arm &nbsp;<a href='https://musclewiki.com/dumbbells/male/shoulders/dumbbell-single-arm-overhead-press/' target="_blank" rel="noreferrer"
