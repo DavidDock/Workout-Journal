@@ -35,7 +35,7 @@ const Journal = () => {
                     <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJulyworkouts(!julyworkouts); setJuneworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false)}}>July</button>
                     <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setAugustworkouts(!augustworkouts); setJuneworkouts(false); setJulyworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false)}}>Aug</button>
                     <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setSeptemberworkouts(!septemberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setOctoberworkouts(false)}}>Sept</button>
-                    {/*<button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setOctoberworkouts(!octoberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false)}}>Oct</button>*/}
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setOctoberworkouts(!octoberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false)}}>Oct</button>
                 </div>
             </div>
             {octoberworkouts && (

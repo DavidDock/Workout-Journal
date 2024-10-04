@@ -1,10 +1,13 @@
 import React from 'react'
+import Workout64 from './Workout64'
+import Workout65 from './Workout65'
 
 const October = () => {
 
     return (
         <div>
-            <p>October</p>
+            <Workout65 />
+            <Workout64 />
         </div>
     )
 }
