@@ -42,7 +42,7 @@ const Workout22 = () => {
                             </a>
                         </li>
                         <li>
-                            <a href='https://www.thenx.com/exercises/42' target="_blank" rel="noreferrer"
+                            <a href='https://www.menshealth.com/uk/how-tos/a61067857/skull-crushers/' target="_blank" rel="noreferrer"
                                 aria-label="Website with instructions for skull-crushers (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Skull crushers
                             </a>
                         </li>
