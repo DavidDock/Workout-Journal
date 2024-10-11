@@ -1,0 +1,54 @@
+.Main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.WelcomeImage {
+    opacity: 1;
+    width: 25%;
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+.WelcomeStay {
+    color: white;
+    animation: 2s ease-out 0s 1 slideInFromTop;
+}
+
+.WelcomeStrong {
+    color: white;
+    animation: 2s ease-out 0s 1 slideInFromBottom;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
