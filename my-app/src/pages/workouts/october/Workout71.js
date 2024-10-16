@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout60 = () => {
+const Workout71 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,7 +22,7 @@ const Workout60 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Wed 25.09</h3>
+                    <h3 className='mb-4'>Date: Mon 14.10</h3>
                     <h3 className="mb-4">Body Parts: Cardio</h3>
                     <h3 className="mb-4">Duration: 12 minutes</h3>
                 </Carousel.Caption>
@@ -47,4 +47,4 @@ const Workout60 = () => {
     )
 }
 
-export default Workout60
+export default Workout71
