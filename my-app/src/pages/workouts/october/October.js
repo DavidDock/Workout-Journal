@@ -8,11 +8,17 @@ import Workout69 from './Workout69'
 import Workout70 from './Workout70'
 import Workout71 from './Workout71'
 import Workout72 from './Workout72'
+import Workout73 from './Workout73'
+import Workout74 from './Workout74'
+import Workout75 from './Workout75'
 
 const October = () => {
 
     return (
         <div>
+            <Workout75 />
+            <Workout74 />
+            <Workout73 />
             <Workout72 />
             <Workout71 />
             <Workout70 />
