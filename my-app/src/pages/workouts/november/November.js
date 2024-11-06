@@ -1,11 +1,13 @@
 import React from 'react'
 import Workout84 from './Workout84'
 import Workout85 from './Workout85'
+import Workout86 from './Workout86'
 
 const November = () => {
 
     return (
         <div>
+            <Workout86 />
             <Workout85 />
             <Workout84 />
 
