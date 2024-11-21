@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout93 = () => {
+const Workout96 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout93 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Tue 19.11</h3>
-                    <h3 className="mb-4">Body Parts: Chest</h3>
-                    <h3 className="mb-4">Duration: 10 minutes</h3>
+                    <h3 className='mb-4'>Date: Fri 22.11</h3>
+                    <h3 className="mb-4">Body Parts: All Body</h3>
+                    <h3 className="mb-4">Duration: 15 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -34,11 +34,11 @@ const Workout93 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                <h3 className='mb-4'>Exercises:</h3>
+                    <h3 className='mb-4'>Exercises:</h3>
                     <ul>
-                    <li>
-                            <a href='https://www.masterclass.com/articles/archer-push-up-guide' target="_blank" rel="noreferrer"
-                                aria-label="How to do Archer press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Archer Press-Ups
+                        <li>
+                            <a href='https://en.wikipedia.org/wiki/Pull-up_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for pull-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pull-Ups
                             </a>
                         </li>
                         <li>
@@ -47,19 +47,14 @@ const Workout93 = () => {
                             </a>
                         </li>
                         <li>
-                            <a href='https://musclewiki.com/bodyweight/male/chest/incline-push-up' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for incline push-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Incline push-ups
-                            </a>
-                        </li>
-                        <li>
-                            <a href='https://musclewiki.com/bodyweight/female/chest/decline-push-up' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for decline push-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Decline push-ups
+                            <a href='https://en.wikipedia.org/wiki/Squat_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Air Squats
                             </a>
                         </li>
                     </ul>
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
-                        <li>Raised Surface</li>
+                        <li>Pull-Up bar</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -71,14 +66,14 @@ const Workout93 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
+                    <h4>Half Murph</h4>
                     <ul>
-                        <li>40 seconds of Decline Press Ups, rest 20 seconds</li>
-                        <li>40 seconds of Archer Press Ups, rest 20 seconds</li>
-                        <li>40 seconds of Press Ups, rest 20 seconds</li>
-                        <li>40 seconds of Incline Press Ups, rest 20 seconds</li>
-                        <li>40 seconds of Slow Press Ups, rest 20 seconds</li>
+                        <li>50 pull-ups</li>
+                        <li>100 press-ups</li>
+                        <li>150 air squats</li>
+                        <li>1/2 Mile Run</li>
                     </ul>
-                    <p>Completed 2 rounds</p>
+                    <p>I split the pull-ups, press-ups and squats into small sets and did them as fast as I could.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
@@ -86,4 +81,4 @@ const Workout93 = () => {
     )
 }
 
-export default Workout93
+export default Workout96

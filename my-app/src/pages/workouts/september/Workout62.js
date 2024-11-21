@@ -66,7 +66,7 @@ const Workout62 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <h4>Halve Murph</h4>
+                    <h4>Half Murph</h4>
                     <ul>
                         <li>50 pull-ups</li>
                         <li>100 press-ups</li>
