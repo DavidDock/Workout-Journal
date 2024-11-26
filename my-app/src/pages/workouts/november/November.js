@@ -12,11 +12,15 @@ import Workout93 from './Workout93'
 import Workout94 from './Workout94'
 import Workout95 from './Workout95'
 import Workout96 from './Workout96'
+import Workout97 from './Workout97'
+import Workout98 from './Workout98'
 
 const November = () => {
 
     return (
         <div>
+            <Workout98 ></Workout98>
+            <Workout97 />
             <Workout96 />
             <Workout95 />
             <Workout94 />
