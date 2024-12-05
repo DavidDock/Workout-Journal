@@ -8,6 +8,7 @@ import August from '../workouts/august/August';
 import September from '../workouts/september/September';
 import October from '../workouts/october/October';
 import November from '../workouts/november/November';
+import December from '../workouts/december/December';
 
 
 const Journal = () => {
@@ -18,6 +19,7 @@ const Journal = () => {
     const [septemberworkouts, setSeptemberworkouts] = useState(false)
     const [octoberworkouts, setOctoberworkouts] = useState(false)
     const [novemberworkouts, setNovemberworkouts] = useState(false)
+    const [decemberworkouts, setDecemberworkouts] = useState(false)
 
     return (
         <div>
@@ -33,14 +35,18 @@ const Journal = () => {
                 Feel free to follow along, they all should be fairly short in length and require minimal equipment.
                 </p>
                 <div className={`d-flex justify-content-around w-90 mx-auto my-4 ${styles.MonthContainer}`}>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJuneworkouts(!juneworkouts); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false)}}>June</button>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJulyworkouts(!julyworkouts); setJuneworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false)}}>July</button>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setAugustworkouts(!augustworkouts); setJuneworkouts(false); setJulyworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false)}}>Aug</button>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setSeptemberworkouts(!septemberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false)}}>Sept</button>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setOctoberworkouts(!octoberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setNovemberworkouts(false)}}>Oct</button>
-                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setNovemberworkouts(!novemberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false)}}>Nov</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJuneworkouts(!juneworkouts); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false); setDecemberworkouts(false)}}>June</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setJulyworkouts(!julyworkouts); setJuneworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false); setDecemberworkouts(false)}}>July</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setAugustworkouts(!augustworkouts); setJuneworkouts(false); setJulyworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false); setDecemberworkouts(false)}}>Aug</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setSeptemberworkouts(!septemberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false); setDecemberworkouts(false)}}>Sept</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setOctoberworkouts(!octoberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setNovemberworkouts(false); setDecemberworkouts(false)}}>Oct</button>
+                    <button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setNovemberworkouts(!novemberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false); setDecemberworkouts(false)}}>Nov</button>
+                    {/*<button className={`hvr-sweep-to-bottom ${styles.MyButton} ${styles.HvrSweepToBottom}`} onClick={() => {setDecemberworkouts(!decemberworkouts); setJuneworkouts(false); setJulyworkouts(false); setAugustworkouts(false); setSeptemberworkouts(false); setOctoberworkouts(false); setNovemberworkouts(false)}}>Dec</button>*/}
                 </div>
             </div>
+            {/*{decemberworkouts && (
+                <December />
+            )}*/}
             {novemberworkouts && (
                 <November />
             )}
