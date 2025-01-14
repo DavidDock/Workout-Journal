@@ -71,7 +71,7 @@ const Workout121 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>This is another quick workout, 5 rounds completed of the following:</p>
+                    <p>This is another quick workout, something is always better than nothing.<br></br>5 rounds completed of the following:</p>
                     <ul>
                         <li>5 pull-ups</li>
                         <li>10 frog squats</li>
