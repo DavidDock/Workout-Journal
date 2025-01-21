@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout106 = () => {
+const Workout126 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout106 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Tues 10.12</h3>
-                    <h3 className="mb-4">Body Parts: Upper Body</h3>
-                    <h3 className="mb-4">Duration: 9 minutes</h3>
+                    <h3 className='mb-4'>Date: Wed 22.01</h3>
+                    <h3 className="mb-4">Body Parts: Mini Upper Body</h3>
+                    <h3 className="mb-4">Duration: 6 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -46,11 +46,6 @@ const Workout106 = () => {
                                 aria-label="Wiki for press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Press-Ups
                             </a>
                         </li>
-                        <li>
-                            <a href='https://en.wiktionary.org/wiki/chin-up' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for Chin-ups (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Chin-ups
-                            </a>
-                        </li>
                     </ul>
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
@@ -70,7 +65,6 @@ const Workout106 = () => {
                     <ul>
                         <li>Pull-ups</li>
                         <li>Press-ups</li>
-                        <li>Chin-ups</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -79,4 +73,4 @@ const Workout106 = () => {
     )
 }
 
-export default Workout106
+export default Workout126

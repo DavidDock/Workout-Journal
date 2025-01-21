@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout106 = () => {
+const Workout124 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout106 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Tues 10.12</h3>
+                    <h3 className='mb-4'>Date: Mon 20.01</h3>
                     <h3 className="mb-4">Body Parts: Upper Body</h3>
-                    <h3 className="mb-4">Duration: 9 minutes</h3>
+                    <h3 className="mb-4">Duration: 12 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -51,6 +51,21 @@ const Workout106 = () => {
                                 aria-label="Wiki for Chin-ups (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Chin-ups
                             </a>
                         </li>
+                        <li>
+                            <a href='https://musclewiki.com/bodyweight/male/triceps/bench-dips' target="_blank" rel="noreferrer"
+                                aria-label="Website demonstration for tricep dips (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Tricep Dips
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://www.wikihow.com/Do-Pike-Push-Ups' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for pike press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pike press-Ups
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://musclewiki.com/bodyweight/female/chest/decline-push-up' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for decline push-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Decline push-ups
+                            </a>
+                        </li>
                     </ul>
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
@@ -66,11 +81,14 @@ const Workout106 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <h4>3 rounds of maximum reps, 1 minute break after each round.  </h4>
+                    <p>2 rounds of the below with a minute rest betwwen each round</p>
                     <ul>
-                        <li>Pull-ups</li>
-                        <li>Press-ups</li>
-                        <li>Chin-ups</li>
+                        <li>10 Pull-ups</li>
+                        <li>20 Pres-ups</li>
+                        <li>10 Chin-ups</li>
+                        <li>20 Tricep Dips</li>
+                        <li>10 Pike Press-Ups</li>
+                        <li>20 Incline Press-Ups</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -79,4 +97,4 @@ const Workout106 = () => {
     )
 }
 
-export default Workout106
+export default Workout124
