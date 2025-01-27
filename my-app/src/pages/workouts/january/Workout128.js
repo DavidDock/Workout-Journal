@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout126 = () => {
+const Workout128 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout126 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Wed 22.01</h3>
-                    <h3 className="mb-4">Body Parts: Mini Upper Body</h3>
-                    <h3 className="mb-4">Duration: 6 minutes</h3>
+                    <h3 className='mb-4'>Date: Mon 27.01</h3>
+                    <h3 className="mb-4">Body Parts: All Body</h3>
+                    <h3 className="mb-4">Duration: 9 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -46,11 +46,12 @@ const Workout126 = () => {
                                 aria-label="Wiki for press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Press-Ups
                             </a>
                         </li>
-                    </ul>
-                    <h3 className='mb-4'>Equipment:</h3>
-                    <ul>
-                        <li>Pull-up bar</li>
-                    </ul>
+                        <li>
+                            <a href='https://en.wikipedia.org/wiki/Squat_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Air Squats
+                            </a>
+                        </li>
+                    </ul>    
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -61,10 +62,11 @@ const Workout126 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>3 rounds of maximum reps, 1 minute break after each round.  </p>
+                    <p>As many rounds as possible in 9 minutes with no rest</p>
                     <ul>
-                        <li>Pull-ups</li>
-                        <li>Press-ups</li>
+                        <li>6 pull-ups</li>
+                        <li>12 press-ups</li>
+                        <li>18 air squats</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -73,4 +75,4 @@ const Workout126 = () => {
     )
 }
 
-export default Workout126
+export default Workout128
