@@ -92,7 +92,7 @@ const Workout119 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <h4>2 rounds, 1 minute break after each round.  </h4>
+                    <p>2 rounds, 1 minute break after each round.  </p>
                     <ul>
                         <li>Pistol Squat 10 reps</li>
                         <li>Side Lateral Raise, 8 reps each arm</li>

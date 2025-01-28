@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout128 = () => {
+const Workout131 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout128 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Mon 27.01</h3>
-                    <h3 className="mb-4">Body Parts: All Body</h3>
-                    <h3 className="mb-4">Duration: 9 minutes</h3>
+                    <h3 className='mb-4'>Date: Thur 30.01</h3>
+                    <h3 className="mb-4">Body Parts: Chest and Back</h3>
+                    <h3 className="mb-4">Duration: 7 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -42,20 +42,15 @@ const Workout128 = () => {
                             </a>
                         </li>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Push-up' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Press-Ups
-                            </a>
-                        </li>
-                        <li>
-                            <a href='https://en.wikipedia.org/wiki/Squat_(exercise)' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Air Squats
+                            <a href='https://musclewiki.com/bodyweight/female/chest/decline-push-up' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for decline push-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Decline push-ups
                             </a>
                         </li>
                     </ul>
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
                         <li>Pull-up bar</li>
-                    </ul>   
+                    </ul>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -66,12 +61,12 @@ const Workout128 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>As many rounds as possible in 9 minutes with no rest</p>
+                    <p>Completed as fast as I could</p>
                     <ul>
-                        <li>6 pull-ups</li>
-                        <li>12 press-ups</li>
-                        <li>18 air squats</li>
+                        <li>50 Pull-ups</li>
+                        <li>100 Decline press-ups</li>
                     </ul>
+                    <p>I split it into 10 rounds with no rest</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
@@ -79,4 +74,4 @@ const Workout128 = () => {
     )
 }
 
-export default Workout128
+export default Workout131

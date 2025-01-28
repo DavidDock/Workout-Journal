@@ -51,7 +51,11 @@ const Workout129 = () => {
                                 aria-label="Website demonstrating frog squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Frog Squats
                             </a>
                         </li>
-                    </ul>    
+                    </ul>
+                    <h3 className='mb-4'>Equipment:</h3>
+                    <ul>
+                        <li>Pull-up bar</li>
+                    </ul> 
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -62,7 +66,6 @@ const Workout129 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <h4>Murph</h4>
                     <p>As many rounds as possible in 9 minutes with no rest.</p>
                     <ul>
                         <li>6 Chin-ups</li>

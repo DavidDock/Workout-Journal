@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout128 = () => {
+const Workout130 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout128 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Mon 27.01</h3>
+                    <h3 className='mb-4'>Date: Wed 29.01</h3>
                     <h3 className="mb-4">Body Parts: All Body</h3>
-                    <h3 className="mb-4">Duration: 9 minutes</h3>
+                    <h3 className="mb-4">Duration: 8 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -37,25 +37,21 @@ const Workout128 = () => {
                     <h3 className='mb-4'>Exercises:</h3>
                     <ul>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Pull-up_(exercise)' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for pull-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pull-Ups
+                            <a href='https://www.wikihow.com/Do-Pike-Push-Ups' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for pike press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pike press-Ups
                             </a>
                         </li>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Push-up' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Press-Ups
+                            <a href='https://blackbeltwiki.com/pistol-squats' target="_blank" rel="noreferrer"
+                                aria-label="Website demonstrating pistol squats (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Pistol Squats - 30 seconds each leg
                             </a>
                         </li>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Squat_(exercise)' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Air Squats
+                            <a href='https://en.wikipedia.org/wiki/Crunch_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for crunches (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Crunches
                             </a>
                         </li>
-                    </ul>
-                    <h3 className='mb-4'>Equipment:</h3>
-                    <ul>
-                        <li>Pull-up bar</li>
-                    </ul>   
+                    </ul>    
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -66,11 +62,11 @@ const Workout128 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>As many rounds as possible in 9 minutes with no rest</p>
+                    <p>As many rounds as possible in 8 minutes with no rest.</p>
                     <ul>
-                        <li>6 pull-ups</li>
-                        <li>12 press-ups</li>
-                        <li>18 air squats</li>
+                        <li>5 Pike press-ups</li>
+                        <li>10 Pistol squats (5 each leg)</li>
+                        <li>15 Crunches</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -79,4 +75,4 @@ const Workout128 = () => {
     )
 }
 
-export default Workout128
+export default Workout130
