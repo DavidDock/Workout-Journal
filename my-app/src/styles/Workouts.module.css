@@ -9,6 +9,7 @@
     overflow-y: scroll;
     margin: auto;
     margin-bottom: 2rem;
+    padding-right: 0.5rem;
 }
 
 .CarouselItem {
