@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout134 = () => {
+const Workout136 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout134 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Mon 10.02</h3>
-                    <h3 className="mb-4">Body Parts: Chest, Triceps and Back</h3>
-                    <h4>The start of the pull/chin up 10 day challenge<br></br> Plus a Mini chest and tricep workout plus </h4>
+                    <h3 className='mb-4'>Date: Wed 12.02</h3>
+                    <h3 className="mb-4">Body Parts: Soulders and Back</h3>
+                    <h4>Mini Shoulder workout <br></br>Plus the pull/chin up 10 day challenge</h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -37,13 +37,13 @@ const Workout134 = () => {
                     <h3 className='mb-4'>Exercises:</h3>
                     <ul>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Push-up' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Press-Ups
+                            <a href='https://www.wikihow.com/Do-Pike-Push-Ups' target="_blank" rel="noreferrer"
+                                aria-label="Website demonstrating pike press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pike Press-Ups
                             </a>
                         </li>
                         <li>
-                            <a href='https://musclewiki.com/bodyweight/male/triceps/bench-dips' target="_blank" rel="noreferrer"
-                                aria-label="Website demonstration for tricep dips (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Tricep Dips
+                            <a href='https://musclewiki.com/dumbbells/male/shoulders/dumbbell-single-arm-overhead-press/' target="_blank" rel="noreferrer"
+                                aria-label="Website demonstrating One arm dumbbell shoulder press (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbell shoulder press
                             </a>
                         </li>
                         <li>
@@ -60,7 +60,7 @@ const Workout134 = () => {
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
                         <li>Pull-Up bar</li>
-                        <li>Chair</li>
+                        <li>Dumbell (7kg)</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -72,13 +72,13 @@ const Workout134 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>The start of the 10 days 100 rep challenge for pull/chin ups (spread throughout the day)</p>
-                    <p>Plus three rounds of the following mini workout:</p>
+                    <p>Five rounds of:</p>
                     <ul>
-                        <li>Max Press-Ups</li>
-                        <li>Max wide press-ups</li>
+                        <li>Pike press-ups</li>
+                        <li>One arm dumbel press (10 each arm)</li>
                         <li>1 Minute rest</li>
                     </ul>
+                    <p>Plus day 3 of the 10 day 100 rep pull/chin up challenge (spread throughout the day)</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
@@ -86,4 +86,4 @@ const Workout134 = () => {
     )
 }
 
-export default Workout134
+export default Workout136
