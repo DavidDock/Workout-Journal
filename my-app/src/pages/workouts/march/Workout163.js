@@ -51,7 +51,7 @@ const Workout163 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>Days 6 and 7 of the week day 200 rep squat challenge (spread throughout the day or in one go)</p><br></br>
+                    <p>Days 6 and 7 of the week long 200 rep Squat Challenge (Completed in one go or spread throughout the day)</p><br></br>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
