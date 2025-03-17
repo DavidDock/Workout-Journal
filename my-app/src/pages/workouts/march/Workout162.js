@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout141 = () => {
+const Workout162 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,10 @@ const Workout141 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: 18 & 19 Feb</h3>
-                    <h3 className="mb-4">Pull up Challenge</h3>
-                    <h3 className="mb-4">Duration: Throughout the day</h3>
+                    <h3 className='mb-4'>Date: Fri 21.03</h3>
+                    <h3 className="mb-4">Body Parts: All Body</h3>
+                    <h3 className="mb-4">Duration: 5 minutes</h3>
+                    <h4><small>Plus the squat challenge</small></h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -46,10 +47,30 @@ const Workout141 = () => {
                                 aria-label="Wiki for Chin-ups (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Chin-ups
                             </a>
                         </li>
+                        <li>
+                            <a href='https://en.wikipedia.org/wiki/Push-up' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Press-Ups
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://www.wikihow.com/Do-Pike-Push-Ups' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for pike press-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pike press-Ups
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://musclewiki.com/bodyweight/male/triceps/bench-dips' target="_blank" rel="noreferrer"
+                                aria-label="Website demonstration for tricep dips (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Tricep Dips
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://en.wikipedia.org/wiki/Squat_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Air Squats
+                            </a>
+                        </li>
                     </ul>
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
-                        <li>Pull-Up bar</li>
+                        <li>Pull-up bar</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -61,7 +82,15 @@ const Workout141 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>Days 8 and 9 of the 10 day 100 rep pull up challenge (spread throughout the day)</p><br></br>
+                    <p>Rest 20 seconds between the following exercises:</p>
+                    <ul>
+                        <li>Max Pull-ups</li>
+                        <li>Max Press-ups</li>
+                        <li>Max Pike Press-ups</li>
+                        <li>Max Chin-ups</li>
+                        <li>Max Tricep Dips</li>
+                    </ul>
+                    <p>Plus day 5 of the week long 200 rep challenge for squats (completed in one go or spread throughout the day)</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
@@ -69,4 +98,4 @@ const Workout141 = () => {
     )
 }
 
-export default Workout141
+export default Workout162

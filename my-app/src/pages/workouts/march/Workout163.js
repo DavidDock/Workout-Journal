@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout141 = () => {
+const Workout163 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,8 @@ const Workout141 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: 18 & 19 Feb</h3>
-                    <h3 className="mb-4">Pull up Challenge</h3>
-                    <h3 className="mb-4">Duration: Throughout the day</h3>
+                    <h3 className='mb-4'>Date: 22 & 23 Mar</h3>
+                    <h3 className="mb-4">Final days of the Squat Challenge</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -37,19 +36,10 @@ const Workout141 = () => {
                     <h3 className='mb-4'>Exercises:</h3>
                     <ul>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Pull-up_(exercise)' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for pull-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pull-Ups
+                            <a href='https://en.wikipedia.org/wiki/Squat_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Air Squats
                             </a>
                         </li>
-                        <li>
-                            <a href='https://en.wiktionary.org/wiki/chin-up' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for Chin-ups (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Chin-ups
-                            </a>
-                        </li>
-                    </ul>
-                    <h3 className='mb-4'>Equipment:</h3>
-                    <ul>
-                        <li>Pull-Up bar</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -61,7 +51,7 @@ const Workout141 = () => {
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
-                    <p>Days 8 and 9 of the 10 day 100 rep pull up challenge (spread throughout the day)</p><br></br>
+                    <p>Days 6 and 7 of the week day 200 rep squat challenge (spread throughout the day or in one go)</p><br></br>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
@@ -69,4 +59,4 @@ const Workout141 = () => {
     )
 }
 
-export default Workout141
+export default Workout163
