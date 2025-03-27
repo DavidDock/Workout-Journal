@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import grey from "../../../assets/greyexercise.svg";
 
-const Workout143 = () => {
+const Workout165 = () => {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -22,9 +22,9 @@ const Workout143 = () => {
                     className={styles.CarouselImage}>
                 </img>
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
-                    <h3 className='mb-4'>Date: Fri 21.12</h3>
-                    <h3 className="mb-4">Body Parts: Legs</h3>
-                    <h3 className="mb-4">Duration: 15 minutes</h3>
+                    <h3 className='mb-4'>Date: Tues 25.03</h3>
+                    <h3 className="mb-4">Body Parts: Back and Biceps</h3>
+                    <h3 className="mb-4">Duration: 10 minutes</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className={styles.CarouselItem}>
@@ -37,24 +37,25 @@ const Workout143 = () => {
                     <h3 className='mb-4'>Exercises:</h3>
                     <ul>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Squat_(exercise)' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Air Squats
+                            <a href='https://en.wikipedia.org/wiki/Pull-up_(exercise)' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for pull-ups (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Pull-Ups
                             </a>
                         </li>
                         <li>
-                            <a href='https://www.livestrong.com/article/559266-are-frog-squats-the-best-way-to-work-out-your-lower-body/' target="_blank" rel="noreferrer"
-                                aria-label="Website demonstrating frog squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>Frog Squats
+                            <a href='https://en.wiktionary.org/wiki/chin-up' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for Chin-ups (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Chin-ups
                             </a>
                         </li>
                         <li>
-                            <a href='https://en.wikipedia.org/wiki/Calf_raises' target="_blank" rel="noreferrer"
-                                aria-label="Wiki for Calve Raises (opens in a new tab)" className='text-white text-decoration-underline text-decoration-underline link-secondary'>Standing Calve Raises
+                            <a href='https://en.wikipedia.org/wiki/Bicep_curl' target="_blank" rel="noreferrer"
+                                aria-label="Wiki for Bicep curl (opens in a new tab)" className='text-white text-decoration-underline link-secondary'>One arm dumbbell bicep curls
                             </a>
                         </li>
                     </ul>
                     <h3 className='mb-4'>Equipment:</h3>
                     <ul>
-                        <li>Deck of Cards</li>
+                        <li>Pull-Up bar</li>
+                        <li>Dumbbell (7kg)</li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -67,10 +68,14 @@ const Workout143 = () => {
                 <Carousel.Caption className={`my-auto ${styles.CarouselContent}`}>
                     <h3>Workout</h3>
                     <ul>
-                        <li>Shuffle the pack of cards with three of the suits</li>
-                        <li>Allocate squats, calve raises and frog suats each to a suit (e.g suats = hearts)</li>
-                        <li>Turn over a card and do the amount of reps on the card of allocated exercise (picture card = 10)</li>
-                        <li>Repeat until all the cards are turned over</li>
+                        <li>6 Pull-ups, hold at top for 10 seconds</li>
+                        <li>5 Pull-ups, hold at top for 10 seconds</li>
+                        <li>4 Pull-ups, hold at top for 10 seconds</li>
+                        <li>3 Pull-ups, hold at top for 10 seconds</li>
+                        <li>2 Pull-ups, hold at top for 10 seconds</li>
+                        <li>1 Pull-up</li>
+                        <li>Repeat above but for Chin-ups instead of Pull-ups</li>
+                        <li>One arm dumbel curl 10 reps down to 1 rep alternating each arm </li>
                     </ul>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -79,4 +84,4 @@ const Workout143 = () => {
     )
 }
 
-export default Workout143
+export default Workout165

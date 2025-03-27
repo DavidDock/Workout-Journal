@@ -38,7 +38,7 @@ const Workout58 = () => {
                     <h3>Leg Challenge</h3>
                     <ul>
                         <li>
-                            500 <a href='https://thenx.com/exercises/976' target="_blank" rel="noreferrer"
+                            500 <a href='https://www.livestrong.com/article/559266-are-frog-squats-the-best-way-to-work-out-your-lower-body/' target="_blank" rel="noreferrer"
                                 aria-label="Website demonstrating frog squats (opens in a new tab)" className='text-white text-decoration-underline link-secondary'> Frog Squats
                             </a>
                         </li>
