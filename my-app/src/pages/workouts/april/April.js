@@ -16,11 +16,15 @@ import Workout181 from './Workout181'
 import Workout182 from './Workout182'
 import Workout183 from './Workout183'
 import Workout184 from './Workout184'
+import Workout185 from './Workout185'
+import Workout186 from './Workouy186'
 
 const April = () => {
 
     return (
         <div>
+            <Workout186 />
+            <Workout185 />
             <Workout184 />
             <Workout183 />
             <Workout182 />
