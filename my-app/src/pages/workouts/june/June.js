@@ -13,11 +13,19 @@ import Workout206 from './Workout206';
 import Workout207 from './Workout207';
 import Workout208 from './Workout208';
 import Workout209 from './Workout209';
+import Workout210 from './Workout210';
+import Workout211 from './Workout211';
+import Workout212 from './Workout212';
+import Workout213 from './Workout213';
 
 const June = () => {
 
     return (
         <div>
+            <Workout213 />
+            <Workout212 />
+            <Workout211 />
+            <Workout210 />
             <Workout209 />
             <Workout208 />
             <Workout207 />
